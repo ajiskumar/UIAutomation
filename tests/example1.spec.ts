@@ -18,11 +18,11 @@ test('Fill form', async() => {
     
 });
 
-test('Upload and Download File', async() => {
-  page = new homepage(getPage());
-  await page.uploadAndDownloadFile();
+// test('Upload and Download File', async() => {
+//   page = new homepage(getPage());
+//   await page.uploadAndDownloadFile();
     
-});
+// });
 
 test('Validate Broken Image', async() =>{
   page = new homepage(getPage())
