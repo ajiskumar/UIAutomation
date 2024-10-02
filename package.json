@@ -2,15 +2,16 @@
     "name": "playwright",
     "version": "1.0.0",
     "main": "index.js",
-    "scripts": {
-
-    },
+    "scripts": {},
     "keywords": [],
     "author": "",
     "license": "ISC",
     "description": "",
     "devDependencies": {
         "@playwright/test": "^1.47.1",
-        "@types/node": "^22.5.5"
+        "@types/node": "^22.5.5",
+        "allure-commandline": "^2.30.0",
+        "allure-playwright": "3.0.4",
+        "jest": "^29.7.0"
     }
 }

@@ -23,8 +23,10 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
-    // 'html', // Comment or remove any reporter you don't want
-    // ["json", {outputfile: "test-result.json"}]
+    //['html'], // Comment or remove any reporter you don't want
+   // ['dot'],
+    ['allure-playwright']
+    //['json', {outputfile: 'report.json'}]
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   
