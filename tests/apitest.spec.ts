@@ -13,7 +13,6 @@ test('simple api test', async({request})=>{
     var responseBody = JSON.parse(await response.text());
     console.log(responseBody.data[1].id);
     console.log(responseBody.data.length);
-    console.log(response.text())
     expect(responseBody.data[1].email).toBeTruthy();
 
 })
